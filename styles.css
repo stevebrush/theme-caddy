@@ -110,7 +110,7 @@ dd {
     height: auto;
 }
 input.color {
-    background: url("https://dl.dropbox.com/u/1345573/themeCaddy/images/selectbbcolors.png") no-repeat;
+    background: url("http://developer.guidecreative.com/scripts/SparkCaddy/v1/images/selectbbcolors.png") no-repeat;
     border-width: 0;
     float: right;
     font-size: 11px;
@@ -144,7 +144,7 @@ input.color {
     z-index: 2000;
 }
 .fontList dt a {
-    background: url("https://dl.dropbox.com/u/1345573/themeCaddy/images/droparrow.gif") no-repeat scroll 185px 4px #FFFFFF;
+    background: url("http://developer.guidecreative.com/scripts/SparkCaddy/v1/images/droparrow.gif") no-repeat scroll 185px 4px #FFFFFF;
     border: 1px solid #999999;
     color: #000000 !important;
     display: block;
@@ -193,7 +193,7 @@ input.color {
     position: relative;
 }
 .imgList dt a {
-    background: url("https://dl.dropbox.com/u/1345573/themeCaddy/images/droparrow.gif") no-repeat scroll 170px 4px #FFFFFF;
+    background: url("http://developer.guidecreative.com/scripts/SparkCaddy/v1/images/droparrow.gif") no-repeat scroll 170px 4px #FFFFFF;
     border: 1px solid #999999;
     color: #E4E4E4;
     display: block;
@@ -240,7 +240,7 @@ input.color {
     width: 40px !important;
 }
 .fontszup {
-    background: url("https://dl.dropbox.com/u/1345573/themeCaddy/images/fszrup.png") no-repeat center center #e2e1e0;
+    background: url("http://developer.guidecreative.com/scripts/SparkCaddy/v1/images/fszrup.png") no-repeat center center #e2e1e0;
     border: 0 none;
 	border-bottom:1px solid #c2c1c0;
     height:12px;
@@ -252,7 +252,7 @@ input.color {
     padding:2px;
 }
 .fontszdown {
-    background: url("https://dl.dropbox.com/u/1345573/themeCaddy/images/fszrdown.png") no-repeat center center #e2e1e0;
+    background: url("http://developer.guidecreative.com/scripts/SparkCaddy/v1/images/fszrdown.png") no-repeat center center #e2e1e0;
     border:0;
     border-bottom:1px solid #c2c1c0;
     bottom: 4px;
