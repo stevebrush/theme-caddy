@@ -1,0 +1,702 @@
+<div id="ThemeEditor">
+	<style id="savedStyles"></style>
+	<div id="sideBar">
+		<div class="gutter">
+			<div id="tabs3">
+			
+				<!-- TABS -->
+				<!-- ==== -->
+				<ul>
+					<li><a href="#tabs-1">Text</a></li>
+					<li><a href="#tabs-2">Menus</a></li>
+					<li><a href="#tabs-3">Head/Foot</a></li>
+					<li><a href="#tabs-4">+</a></li>
+				</ul>
+				
+				
+				<!-- TEXT -->
+				<!-- ==== -->
+				<div id="tabs-1">
+					<div id="allHeadings" class="elementWrap clearfix primary">
+						<div class="titleWrap">Headings</div>
+						<div class="left">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_allHeadings" value="" />
+								<input type="hidden" class="elements" value="${allHeadings}" />
+							</div>
+						</div>
+						<div class="fontWrap">
+							<dl class="fontList" elements="h1, h2, h3, h4, h5, h6">
+								<dt><a href="#">Select a font</a></dt>
+								<dd>
+									<ul>
+										<li style="font-family:Arial, Helvetica, sans-serif !important;"><a href="#">Arial / Helvetica</a></li>
+										<li style="font-family:Baskerville,Palatino Linotype, Palatino, Times New Roman,serif !important;"><a href="#">Baskerville / Palatino Linotype</a></li>
+										<li style="font-family:Century Gothic, Apple Gothic, URW Gothic L, sans-serif !important;"><a href="#">Century Gothic / Apple Gothic</a></li>
+										<li style="font-family:Courier New, Courier, Andale Mono, monospace !important;"><a href="#">Courier New / Courier</a></li>
+										<li style="font-family:Georgia, Times New Roman, Times, serif !important;"><a href="#">Georgia / Times New Roman</a></li>
+										<li style="font-family:Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif !important;"><a href="#">Gill Sans / Gill Sans MT</a></li>
+										<li style="font-family:Impact, Haettenschweiler, Arial Narrow Bold, Charcoal, sans-serif !important;"><a href="#">Impact / Haettenschweiler</a></li>
+										<li style="font-family:Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif !important;"><a href="#">Lucida sans / Lucida Grande</a></li>
+										<li style="font-family:Palatino, Palatino Linotype, URW Palladio L, Georgia, Times New Roman, Times, serif !important;"><a href="#">Palatino / Palatino Linotype</a></li>
+										<li style="font-family:Tahoma, Geneva, Verdana, sans-serif !important;"><a href="#">Tahoma / Geneva</a></li>
+										<li style="font-family:Times New Roman, Times, serif !important;"><a href="#">Times New Roman / Times</a></li>
+										<li style="font-family:Trebuchet MS, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif !important;"><a href="#">Trebuchet MS / Lucida Sans</a></li>
+										<li style="font-family:Verdana, Geneva, Tahoma, sans-serif !important;"><a href="#">Verdana / Geneva</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="elementWrap clearfix heading1">
+						<div class="titleWrap">H1</div>
+						<div class="left">Text color:</div>
+						<div class="right">
+						<div class="inputWrap">
+							<input type="hidden" id="storage_h1" value="" />
+							<input type="hidden" class="elements" value="${h1}" />
+							<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary h1" value="" />
+						</div>
+						</div>
+						<div class="left">
+							<div class="fontsz" cssselector="color" elements="h1">
+								<input class="fontszr" disabled="disabled" type="text" value="" />
+								<p class="fszrpx">px</p>
+								<button class="fontszup" value="fontszup">+</button>
+								<button class="fontszdown" value="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div class="buttonWrap" elements="h1">
+								<button class="bold" value="bold">B</button>
+								<button class="italic" value="italic">I</button>
+								<button class="underline" value="underline">U</button>
+								<button class="uppercase" value="uppercase">TT</button>
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix heading2">
+						<div class="titleWrap">H2</div>
+						<div class="left">Text color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_h2" value="" />
+								<input type="hidden" class="elements" value="${h2}" />
+								<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary h2" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div class="fontsz" cssselector="color" elements="h2">
+								<input class="fontszr" disabled="disabled" type="text" value="" />
+								<p class="fszrpx">px</p>
+								<button class="fontszup" value="fontszup">+</button>
+								<button class="fontszdown" value="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div class="buttonWrap" elements="h2">
+								<button class="bold" value="bold">B</button>
+								<button class="italic" value="italic">I</button>
+								<button class="underline" value="underline">U</button>
+								<button class="uppercase" value="uppercase">TT</button>
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix heading3">
+						<div class="titleWrap">H3</div>
+						<div class="left">Text color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_h3" value="" />
+								<input type="hidden" class="elements" value="${h3}" />
+								<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary h3" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div class="fontsz" cssselector="color" elements="h3">
+								<input class="fontszr" disabled="disabled" type="text" value="" />
+								<p class="fszrpx">px</p>
+								<button class="fontszup" value="fontszup">+</button>
+								<button class="fontszdown" value="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div class="buttonWrap" elements="h3">
+								<button class="bold" value="bold">B</button>
+								<button class="italic" value="italic">I</button>
+								<button class="underline" value="underline">U</button>
+								<button class="uppercase" value="uppercase">TT</button>
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix heading4">
+						<div class="titleWrap">H4</div>
+						<div class="left">Text color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_h4" value="" />
+								<input type="hidden" class="elements" value="${h4}" />
+								<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary h4" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div class="fontsz" cssselector="color" elements="h4">
+								<input class="fontszr" disabled="disabled" type="text" value="" />
+								<p class="fszrpx">px</p>
+								<button class="fontszup" value="fontszup">+</button>
+								<button class="fontszdown" value="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div class="buttonWrap" elements="h4">
+								<button class="bold" value="bold">B</button>
+								<button class="italic" value="italic">I</button>
+								<button class="underline" value="underline">U</button>
+								<button class="uppercase" value="uppercase">TT</button>
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix text">
+						<div class="titleWrap">Text</div>
+						<div class="left">Text color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_text" value="" />
+								<input type="hidden" class="elements" value="${text}" />
+								<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary p, #contentSecondary p, #contentPrimary li, #contentPrimary td" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div class="fontsz" cssselector="color" elements="#contentPrimary p, #contentSecondary p, #contentPrimary li, #contentPrimary td">
+								<input class="fontszr" disabled="disabled" type="text" value="" />
+								<p class="fszrpx">px</p>
+								<button class="fontszup" value="fontszup">+</button>
+								<button class="fontszdown" value="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div class="buttonWrap" elements="#contentPrimary p, #contentSecondary p, #contentPrimary li, #contentPrimary td">
+								<button class="bold" value="bold">B</button>
+								<button class="italic" value="italic">I</button>
+								<button class="underline" value="underline">U</button>
+								<button class="uppercase" value="uppercase">TT</button>
+							</div>
+						</div>
+						<div class="fontWrap">
+							<dl class="fontList" elements="#contentPrimary p, #contentSecondary p, #contentPrimary li, #contentPrimary td">
+								<dt><a href="#">Select a font</a></dt>
+								<dd>
+									<ul>
+										<li style="font-family:Arial, Helvetica, sans-serif !important;"><a href="#">Arial / Helvetica</a></li>
+										<li style="font-family:Baskerville,Palatino Linotype, Palatino, Times New Roman,serif !important;"><a href="#">Baskerville / Palatino Linotype</a></li>
+										<li style="font-family:Century Gothic, Apple Gothic, URW Gothic L, sans-serif !important;"><a href="#">Century Gothic / Apple Gothic</a></li>
+										<li style="font-family:Courier New, Courier, Andale Mono, monospace !important;"><a href="#">Courier New / Courier</a></li>
+										<li style="font-family:Georgia, Times New Roman, Times, serif !important;"><a href="#">Georgia / Times New Roman</a></li>
+										<li style="font-family:Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif !important;"><a href="#">Gill Sans / Gill Sans MT</a></li>
+										<li style="font-family:Impact, Haettenschweiler, Arial Narrow Bold, Charcoal, sans-serif !important;"><a href="#">Impact / Haettenschweiler</a></li>
+										<li style="font-family:Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif !important;"><a href="#">Lucida sans / Lucida Grande</a></li>
+										<li style="font-family:Palatino, Palatino Linotype, URW Palladio L, Georgia, Times New Roman, Times, serif !important;"><a href="#">Palatino / Palatino Linotype</a></li>
+										<li style="font-family:Tahoma, Geneva, Verdana, sans-serif !important;"><a href="#">Tahoma / Geneva</a></li>
+										<li style="font-family:Times New Roman, Times, serif !important;"><a href="#">Times New Roman / Times</a></li>
+										<li style="font-family:Trebuchet MS, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif !important;"><a href="#">Trebuchet MS / Lucida Sans</a></li>
+										<li style="font-family:Verdana, Geneva, Tahoma, sans-serif !important;"><a href="#">Verdana / Geneva</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="elementWrap clearfix links">
+						<div class="titleWrap">Text Links</div>
+						<div class="left">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_textLinks" value="" />
+								<input type="hidden" class="elements" value="${link}" />
+								<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary a" value="" />
+							</div>
+						</div>
+						<div class="right">
+							<div class="buttonWrap" elements="#contentPrimary a">
+								<button class="bold" value="bold">B</button>
+								<button class="italic" value="italic">I</button>
+								<button class="underline" value="underline">U</button>
+								<button class="uppercase" value="uppercase">TT</button>
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix linksHover">
+						<div id="textLinkHover" element="#contentPrimary a.hover">
+							<div class="titleWrap">Text Link Hover</div>
+							<div class="left">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_textLinksHover" value="" />
+									<input type="hidden" class="elements" value="${linkHover}" />
+									<input autocomplete="off" class="color colorText" cssselector="color" elements="#contentPrimary a.hover" value="asdf" />
+								</div>
+							</div>
+							<div class="right">
+								<div class="buttonWrap" elements="#contentPrimary a.hover">
+									<button class="bold" value="bold">B</button>
+									<button class="italic" value="italic">I</button>
+									<button class="underline" value="underline">U</button>
+									<button class="uppercase" value="uppercase">TT</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				<!-- MENUS -->
+				<!-- ===== -->
+				<div id="tabs-2">
+					<div class="elementWrap clearfix utilityMenu">
+						<div class="titleWrap">Utility Menu</div>
+						<div class="left">Link color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_utilityNavLink" value="" />
+								<input type="hidden" class="elements" value="${utilityNavLink}" />
+								<input elements="#headerUtility li a" cssselector="color" class="color colorText" autocomplete="off" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div elements="#headerUtility li a" cssselector="color" class="fontsz">
+								<input disabled="disabled" class="fontszr" type="text" value="" />
+								<p class="fszrpx">px</p><button value="fontszup" class="fontszup">+</button><button value="fontszdown" class="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div elements="#headerUtility li a" class="buttonWrap">
+								<button value="bold" class="bold">B</button><button value="italic" class="italic">I</button><button value="underline" class="underline">U</button><button value="uppercase" class="uppercase">TT</button>
+							</div>
+						</div>
+						<div class="fontWrap">
+							<dl class="fontList" elements="#headerUtility a">
+								<dt><a href="#">Select a font</a></dt>
+								<dd>
+									<ul>
+										<li style="font-family:Arial, Helvetica, sans-serif !important;"><a href="#">Arial / Helvetica</a></li>
+										<li style="font-family:Baskerville,Palatino Linotype, Palatino, Times New Roman,serif !important;"><a href="#">Baskerville / Palatino Linotype</a></li>
+										<li style="font-family:Century Gothic, Apple Gothic, URW Gothic L, sans-serif !important;"><a href="#">Century Gothic / Apple Gothic</a></li>
+										<li style="font-family:Courier New, Courier, Andale Mono, monospace !important;"><a href="#">Courier New / Courier</a></li>
+										<li style="font-family:Georgia, Times New Roman, Times, serif !important;"><a href="#">Georgia / Times New Roman</a></li>
+										<li style="font-family:Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif !important;"><a href="#">Gill Sans / Gill Sans MT</a></li>
+										<li style="font-family:Impact, Haettenschweiler, Arial Narrow Bold, Charcoal, sans-serif !important;"><a href="#">Impact / Haettenschweiler</a></li>
+										<li style="font-family:Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif !important;"><a href="#">Lucida sans / Lucida Grande</a></li>
+										<li style="font-family:Palatino, Palatino Linotype, URW Palladio L, Georgia, Times New Roman, Times, serif !important;"><a href="#">Palatino / Palatino Linotype</a></li>
+										<li style="font-family:Tahoma, Geneva, Verdana, sans-serif !important;"><a href="#">Tahoma / Geneva</a></li>
+										<li style="font-family:Times New Roman, Times, serif !important;"><a href="#">Times New Roman / Times</a></li>
+										<li style="font-family:Trebuchet MS, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif !important;"><a href="#">Trebuchet MS / Lucida Sans</a></li>
+										<li style="font-family:Verdana, Geneva, Tahoma, sans-serif !important;"><a href="#">Verdana / Geneva</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="elementWrap clearfix mMenu">
+						<div class="titleWrap">Main Menu</div>
+						<div class="left">Link color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_mainNavLink" value="" />
+								<input type="hidden" class="elements" value="${mainNavLink}" />
+								<input elements="#wrapNav li a" cssselector="color" class="color colorText" autocomplete="off" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div elements="#wrapNav li a" cssselector="color" class="fontsz">
+								<input disabled="disabled" class="fontszr" type="text" value="" />
+								<p class="fszrpx">px</p><button value="fontszup" class="fontszup">+</button><button value="fontszdown" class="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div elements="#wrapNav li a" class="buttonWrap">
+								<button value="bold" class="bold">B</button><button value="italic" class="italic">I</button><button value="underline" class="underline">U</button><button value="uppercase" class="uppercase">TT</button>
+							</div>
+						</div>
+						<div class="fontWrap">
+							<dl class="fontList" elements="#wrapNav a">
+								<dt><a href="#">Select a font</a></dt>
+								<dd>
+									<ul>
+										<li style="font-family:Arial, Helvetica, sans-serif !important;"><a href="#">Arial / Helvetica</a></li>
+										<li style="font-family:Baskerville,Palatino Linotype, Palatino, Times New Roman,serif !important;"><a href="#">Baskerville / Palatino Linotype</a></li>
+										<li style="font-family:Century Gothic, Apple Gothic, URW Gothic L, sans-serif !important;"><a href="#">Century Gothic / Apple Gothic</a></li>
+										<li style="font-family:Courier New, Courier, Andale Mono, monospace !important;"><a href="#">Courier New / Courier</a></li>
+										<li style="font-family:Georgia, Times New Roman, Times, serif !important;"><a href="#">Georgia / Times New Roman</a></li>
+										<li style="font-family:Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif !important;"><a href="#">Gill Sans / Gill Sans MT</a></li>
+										<li style="font-family:Impact, Haettenschweiler, Arial Narrow Bold, Charcoal, sans-serif !important;"><a href="#">Impact / Haettenschweiler</a></li>
+										<li style="font-family:Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif !important;"><a href="#">Lucida sans / Lucida Grande</a></li>
+										<li style="font-family:Palatino, Palatino Linotype, URW Palladio L, Georgia, Times New Roman, Times, serif !important;"><a href="#">Palatino / Palatino Linotype</a></li>
+										<li style="font-family:Tahoma, Geneva, Verdana, sans-serif !important;"><a href="#">Tahoma / Geneva</a></li>
+										<li style="font-family:Times New Roman, Times, serif !important;"><a href="#">Times New Roman / Times</a></li>
+										<li style="font-family:Trebuchet MS, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif !important;"><a href="#">Trebuchet MS / Lucida Sans</a></li>
+										<li style="font-family:Verdana, Geneva, Tahoma, sans-serif !important;"><a href="#">Verdana / Geneva</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="elementWrap clearfix">
+						<div class="left">Menu Gradient:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_mainNavGradient" value="" />
+								<input type="hidden" class="elements" value="${mainNavGradient}" />
+								<button elements="#wrapNav .gradient" class="hideIt">X</button>
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix">
+						<div class="left">Menu Background:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_mainNavBG" value="" />
+								<input type="hidden" class="elements" value="${mainNavBG}" />
+								<input elements="#wrapNav" cssselector="background-color" class="color colorBackground" autocomplete="off" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix">
+						<div class="left">Menu Dividers:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_mainNavBorder" value="" />
+								<input type="hidden" class="elements" value="${mainNavBorder}" />
+								<input elements="#wrapNav li" cssselector="border-right-color" class="color colorBorder" autocomplete="off" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix">
+						<div class="subTitleWrap">Hover/Selected Item</div>
+						<div class="left">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_mainNavLinkHover" value="" />
+								<input type="hidden" class="elements" value="${mainNavLinkHover}" />
+								<input elements="#wrapNav li.selected a" cssselector="color" class="color colorText" autocomplete="off" value="" />
+							</div>
+						</div>
+						<div class="right">
+							<div elements="#wrapNav li.selected a" class="buttonWrap">
+								<button value="bold" class="bold">B</button><button value="italic" class="italic">I</button><button value="underline" class="underline">U</button><button value="uppercase" class="uppercase">TT</button>
+							</div>
+						</div>
+						<div class="left">Link Background:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input elements="#wrapNav li.selected" cssselector="background-color" class="color colorBackground" autocomplete="off" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="elementWrap clearfix sideMenu">
+						<div class="titleWrap">Side Menu</div>
+						<div class="left">Link color:</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_sideNavLink" value="" />
+								<input type="hidden" class="elements" value="${sideNavLink}" />
+								<input elements="#contentSecondary li a" cssselector="color" class="color colorText" autocomplete="off" value="" />
+							</div>
+						</div>
+						<div class="left">
+							<div elements="#contentSecondary li a" cssselector="color" class="fontsz">
+								<input disabled="disabled" class="fontszr" type="text" value="" />
+								<p class="fszrpx">px</p><button value="fontszup" class="fontszup">+</button><button value="fontszdown" class="fontszdown">+</button>
+							</div>
+						</div>
+						<div class="right">
+							<div elements="#contentSecondary li a" class="buttonWrap">
+								<button value="bold" class="bold">B</button><button value="italic" class="italic">I</button><button value="underline" class="underline">U</button><button value="uppercase" class="uppercase">TT</button>
+							</div>
+						</div>
+						<div class="fontWrap">
+							<dl class="fontList" elements="#contentSecondary .internalMenu a">
+								<dt><a href="#">Select a font</a></dt>
+								<dd>
+									<ul>
+										<li style="font-family:Arial, Helvetica, sans-serif !important;"><a href="#">Arial / Helvetica</a></li>
+										<li style="font-family:Baskerville,Palatino Linotype, Palatino, Times New Roman,serif !important;"><a href="#">Baskerville / Palatino Linotype</a></li>
+										<li style="font-family:Century Gothic, Apple Gothic, URW Gothic L, sans-serif !important;"><a href="#">Century Gothic / Apple Gothic</a></li>
+										<li style="font-family:Courier New, Courier, Andale Mono, monospace !important;"><a href="#">Courier New / Courier</a></li>
+										<li style="font-family:Georgia, Times New Roman, Times, serif !important;"><a href="#">Georgia / Times New Roman</a></li>
+										<li style="font-family:Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif !important;"><a href="#">Gill Sans / Gill Sans MT</a></li>
+										<li style="font-family:Impact, Haettenschweiler, Arial Narrow Bold, Charcoal, sans-serif !important;"><a href="#">Impact / Haettenschweiler</a></li>
+										<li style="font-family:Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif !important;"><a href="#">Lucida sans / Lucida Grande</a></li>
+										<li style="font-family:Palatino, Palatino Linotype, URW Palladio L, Georgia, Times New Roman, Times, serif !important;"><a href="#">Palatino / Palatino Linotype</a></li>
+										<li style="font-family:Tahoma, Geneva, Verdana, sans-serif !important;"><a href="#">Tahoma / Geneva</a></li>
+										<li style="font-family:Times New Roman, Times, serif !important;"><a href="#">Times New Roman / Times</a></li>
+										<li style="font-family:Trebuchet MS, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif !important;"><a href="#">Trebuchet MS / Lucida Sans</a></li>
+										<li style="font-family:Verdana, Geneva, Tahoma, sans-serif !important;"><a href="#">Verdana / Geneva</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="elementWrap clearfix">
+						<div class="subTitleWrap">Hover/Selected Item</div>
+						<div class="left">
+							Link color:
+						</div>
+						<div class="right">
+							<div class="inputWrap">
+								<input type="hidden" id="storage_sideNavLinkHover" value="" />
+								<input type="hidden" class="elements" value="${sideNavLinkHover}" />
+								<input elements="#contentSecondary li.selected a" cssselector="color" class="color colorText" autocomplete="off" value="" />
+							</div>
+						</div>
+						<div class="left">
+							Link Background:
+						</div>
+						<div class="right">
+							<input elements="#contentSecondary li.hover a" cssselector="background-color" class="color colorBackground" autocomplete="off" value="" />
+						</div>
+						<div class="left">
+							Link Style:
+						</div>
+						<div class="right">
+							<div elements="#contentSecondary li.selected a" class="buttonWrap">
+								<button value="bold" class="bold">B</button><button value="italic" class="italic">I</button><button value="underline" class="underline">U</button><button value="uppercase" class="uppercase">TT</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="tabs-3">
+				 	<div id="theme1tools">
+						<div class="elementWrap clearfix header">
+							<div class="titleWrap">Header</div>
+							<div class="left">Utility Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_header1" value="" />
+									<input type="hidden" class="elements" value="${header1}" />
+									<input elements="#wrapHeader" cssselector="background-color" class="color colorBackground" autocomplete="off">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix footer">
+							<div class="titleWrap">Footer</div>
+							<div style="width:110px;text-align:right;" class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_footer1" value="" />
+									<input type="hidden" class="elements" value="${footer1}" />
+									<input elements="#wrapFooter, #BodyId" cssselector="background-color" class="color colorBackground" autocomplete="off" />
+								</div>
+							</div>
+							<div style="width:110px;text-align:right;" class="left">Border:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input elements="#wrapFooter" cssselector="border-top-color" class="color colorBorder" autocomplete="off">
+								</div>
+							</div>
+							<div style="width:110px;text-align:right;" class="left">Text color:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input elements="#wrapFooter" cssselector="color" class="color colorText" autocomplete="off">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END THEME 1 -->
+					
+					<div id="theme2tools">
+						<div class="elementWrap clearfix header">
+							<div class="titleWrap">Header</div>
+							<div class="left" >Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_header2" value="" />
+									<input type="hidden" class="elements" value="${header2}" />
+									<input autocomplete="off" class="color colorBackground" cssselector="background-color" elements="#wrapHeader" />
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix">
+							<div class="titleWrap">Donate Button</div>
+							<div class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_donateButton" value="" />
+									<input type="hidden" class="elements" value="${donateButton}" />
+									<input autocomplete="off" class="color colorBackgroundOnly" cssselector="background-color" elements="#donateButton">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix">
+							<div class="subTitleWrap">Button Text</div>
+							<div class="left">
+								<input type="hidden" id="storage_donateButtonText" value="" />
+								<input type="hidden" class="elements" value="${donateButtonText}" />
+								<div class="fontsz" cssselector="color" elements="#donateButton a">
+									<input class="fontszr" disabled="disabled" type="text">
+									<p class="fszrpx">px</p>
+									<button class="fontszup" value="fontszup">+</button>
+									<button class="fontszdown" value="fontszdown">+</button>
+								</div>
+							</div>
+							<div class="right">
+								<div class="buttonWrap" elements="#donateButton a">
+									<button class="bold" value="bold">B</button>
+									<button class="italic" value="italic">I</button>
+									<button class="underline" value="underline">U</button>
+									<button class="uppercase" value="uppercase">TT</button>
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix">
+							<div class="subTitleWrap">Button Hover State</div>
+							<div class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_donateButtonHover" value="" />
+									<input type="hidden" class="elements" value="${donateButtonHover}" />
+									<input autocomplete="off" class="color colorBackgroundOnly" cssselector="background-color" elements="#donateButton a.hover">
+								</div>
+							</div>
+							<div class="left">Font Color:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input autocomplete="off" class="color colorText" cssselector="color" elements="#donateButton a.hover">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix footer">
+							<div class="titleWrap">Canvas</div>
+							<div style="width:110px;text-align:right;" class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_canvas2" value="" />
+									<input type="hidden" class="elements" value="${canvas2}" />
+									<input elements="#internal" cssselector="background-color" class="color colorBackground" autocomplete="off">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix footer">
+							<div class="titleWrap">Footer</div>
+							<div class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_footer2" value="" />
+									<input type="hidden" class="elements" value="${footer2}" />
+									<input elements="#wrapFooter" cssselector="background-color" class="color colorBackground" autocomplete="off" />
+								</div>
+							</div>
+							<div class="left">Text color:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input elements="#wrapFooter" cssselector="color" class="color colorText" autocomplete="off">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END THEME 2 -->
+					
+					<div id="theme3tools">
+						<div class="elementWrap clearfix header">
+							<div class="titleWrap">Header</div>
+							<div class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_header3" value="" />
+									<input type="hidden" class="elements" value="${header3}" />
+									<input elements="#wrapHeader" cssselector="background-color" class="color colorBackground" autocomplete="off">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix">
+							<div class="titleWrap">Welcome/Title bar</div>
+							<div class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_titleBar" value="" />
+									<input type="hidden" class="elements" value="${titleBar}" />
+									<input elements="#headerBanner" cssselector="background-color" class="color colorBackground" autocomplete="off">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix">
+							<div class="left">Text Color:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_titleBarText" value="" />
+									<input type="hidden" class="elements" value="${titleBarText}" />
+									<input elements="#headerBanner .title" cssselector="color" class="color colorText" autocomplete="off">
+								</div>
+							</div>
+							<div class="left">
+								<div class="fontsz" cssselector="color" elements="#headerBanner .title">
+									<input class="fontszr" disabled="disabled" type="text">
+									<p class="fszrpx">px</p>
+									<button class="fontszup" value="fontszup">+</button>
+									<button class="fontszdown" value="fontszdown">+</button>
+								</div>
+							</div>
+							<div class="right">
+								<div class="buttonWrap" elements="#headerBanner .title">
+									<button class="bold" value="bold">B</button>
+									<button class="italic" value="italic">I</button>
+									<button class="underline" value="underline">U</button>
+									<button class="uppercase" value="uppercase">TT</button>
+								</div>
+							</div>
+							<div class="fontWrap">
+								<dl class="fontList" elements="#headerBanner .title"><dt><a href="#">Select a font</a></dt><dd><ul><li style="font-family:Arial, Helvetica, sans-serif !important;"> <a href="#">Arial / Helvetica</a> </li><li style="font-family:Baskerville,Palatino Linotype, Palatino, Times New Roman,serif !important;"> <a href="#">Baskerville / Palatino Linotype</a> </li><li style="font-family:Century Gothic, Apple Gothic, URW Gothic L, sans-serif !important;"> <a href="#">Century Gothic / Apple Gothic</a> </li><li style="font-family:Courier New, Courier, Andale Mono, monospace !important;"> <a href="#">Courier New / Courier</a> </li><li style="font-family:Georgia, Times New Roman, Times, serif !important;"> <a href="#">Georgia / Times New Roman</a> </li><li style="font-family:Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif !important;"> <a href="#">Gill Sans / Gill Sans MT</a> </li><li style="font-family:Impact, Haettenschweiler, Arial Narrow Bold, Charcoal, sans-serif !important;"> <a href="#">Impact / Haettenschweiler</a> </li><li style="font-family:Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif !important;"> <a href="#">Lucida sans / Lucida Grande</a> </li><li style="font-family:Palatino, Palatino Linotype, URW Palladio L, Georgia, Times New Roman, Times, serif !important;"> <a href="#">Palatino / Palatino Linotype</a> </li><li style="font-family:Tahoma, Geneva, Verdana, sans-serif !important;"> <a href="#">Tahoma / Geneva</a> </li><li style="font-family:Times New Roman, Times, serif !important;"> <a href="#">Times New Roman / Times</a> </li><li style="font-family:Trebuchet MS, Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif !important;"> <a href="#">Trebuchet MS / Lucida Sans</a> </li><li style="font-family:Verdana, Geneva, Tahoma, sans-serif !important;"> <a href="#">Verdana / Geneva</a> </li></ul></dd></dl>
+							</div>
+						</div>
+						<div class="elementWrap clearfix footer">
+							<div class="titleWrap">Canvas</div>
+							<div class="left" style="width:110px;text-align:right;">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_canvas3" value="" />
+									<input type="hidden" class="elements" value="${canvas3}" />
+									<input autocomplete="off" class="color colorBackground" cssselector="background-color" elements="#BodyId">
+								</div>
+							</div>
+						</div>
+						<div class="elementWrap clearfix footer">
+							<div class="titleWrap">Footer</div>
+							<div class="left">Background:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input type="hidden" id="storage_footer3" value="" />
+									<input type="hidden" class="elements" value="${footer3}" />
+									<input elements="#wrapFooter" cssselector="background-color" class="color colorBackground" autocomplete="off" />
+								</div>
+							</div>
+							<div class="left">Text color:</div>
+							<div class="right">
+								<div class="inputWrap">
+									<input elements="#wrapFooter" cssselector="color" class="color colorText" autocomplete="off">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END THEME 3 -->
+				</div>
+				
+				<!-- SAVE -->
+				<!-- ==== -->
+				<div id="tabs-4">
+					<div class="elementWrap clearfix">
+						<div class="titleWrap">Save Changes</div>
+						<div class="formWrap">
+							<div class="divField clearfix">
+								<label for="txtUserName">Username:</label>
+								<input id="txtUserName" value="" />
+							</div>
+							<div class="divField clearfix">
+								<label for="txtPwd">Password:</label>
+								<input id="txtPwd" type="password" value="" />
+							</div>
+						</div>
+						<p><a href="#" id="saveChanges">Save Changes</a><a href="#" id="setDefault">Reset to Default</a></p>
+						<p><strong>(!) IMPORTANT:</strong> After saving your style changes, remove the Theme Caddy Part from the Style Guide in order to prevent any future overrides of the stylesheet.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

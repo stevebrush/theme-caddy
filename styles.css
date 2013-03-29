@@ -639,7 +639,7 @@ html, body, * html #sideBar {
 #EmailContentPreview {padding:0 0 50px;margin:15px 0 30px;border-bottom:1px solid #e2e1e0;text-align:center;float:left;width:100%;clear:both;}
 #EmailContentPreview > table {background:#fff;margin:0 auto;text-align:left;box-shadow:0 0 10px #888;}
 #EmailContentViewer {padding:0 0 30px;float:left;width:100%;}
-#EmailContentCompiler {display:none;}
+#EmailContentCompiler {visibility:hidden;height:1px;}
 #EmailContentViewer ul.emailContentMenu {list-style:none;margin:0;padding:0;float:left;}
 #EmailContentViewer ul.emailContentMenu li {clear:left;display:inline;float:left;width:230px;padding:0;margin:0 0 2px;}
 #contentPrimary #EmailContentViewer ul.emailContentMenu li a {display:block;padding:8px;color:#fff!important;background:#333;font-weight:normal;text-decoration:none;border-radius:5px 0 0 5px;}
